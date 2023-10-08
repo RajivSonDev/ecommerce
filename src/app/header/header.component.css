@@ -49,3 +49,7 @@
   border-left: 0px;
   height:40px;
 }
+
+.nav .logout:hover{
+  cursor: pointer;
+}

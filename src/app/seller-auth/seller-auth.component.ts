@@ -10,6 +10,9 @@ import {SignUp} from "../data-type";
 })
 export class SellerAuthComponent implements OnInit{
 
+  showLoginForm:boolean=false;
+  authError:string='';
+
   constructor(private auth:SellerService,private route:Router) {
   }
 
@@ -23,4 +26,22 @@ export class SellerAuthComponent implements OnInit{
   }
 
 
+  openLogin() {
+      this.showLoginForm=true;
+  }
+
+  openSignUp() {
+    this.showLoginForm=false;
+  }
+
+  logInForm(value: any) {
+    //console.log(value)
+    this.authError='';
+    this.auth.userLogin(value)
+    this.auth.isLoginError.subscribe((iserror)=>{
+        if(iserror){
+           this.authError='Email or Password is not correct!';
+        }
+    })
+  }
 }
