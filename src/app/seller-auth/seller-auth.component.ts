@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-seller-auth',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SellerAuthComponent {
 
+  signForm(event : any) {
+    console.warn(event.name)
+  }
 }

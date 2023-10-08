@@ -7,3 +7,31 @@ body{
   margin-left: 5%;
   margin-right: 5%;
 }
+
+.common-form{
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  width: 300px;
+  text-align: center;
+}
+
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.form-button{
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.form-button:hover{
+  border: 2px solid darkviolet;
+}
