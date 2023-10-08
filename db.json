@@ -11,6 +11,36 @@
       "password": "123456",
       "email": "raj@gmail.com",
       "id": 2
+    },
+    {
+      "name": "tony",
+      "password": "123456",
+      "email": "raj@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Raj",
+      "password": "Sonawala",
+      "email": "raj@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "peter",
+      "password": "123456",
+      "email": "peter@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Tony",
+      "password": "112354",
+      "email": "Tony@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Raj Sonawala",
+      "password": "123456",
+      "email": "rock@gmail.com",
+      "id": 7
     }
   ]
 }
