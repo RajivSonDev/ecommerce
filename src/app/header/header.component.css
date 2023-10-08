@@ -53,3 +53,8 @@
 .nav .logout:hover{
   cursor: pointer;
 }
+
+.title{
+  font-size: xxx-large;
+  font-family: Vladimir Script;
+}
